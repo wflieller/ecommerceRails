@@ -16,6 +16,9 @@
 	<li><%= link_to "Subscribers", subscribers_path %></li>
 	<% if current_user %>
 	<li><%=link_to "Sign Out", destroy_user_session_path, :method => :delete %></li>
+	<% elsif current_admin %>
+
+	<li><%=link_to "Sign Out", destroy_admin_session_path, :method => :delete %></li>
 	
 	<% else %>
 	
