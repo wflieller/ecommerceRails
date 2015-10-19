@@ -27,6 +27,9 @@
  	color: #61BAAA;
  }
 
+hr {
+	color: lightgray;
+}
 
  .fa-homepage {
 
@@ -41,9 +44,16 @@
  .success {
  	background-color: #61BAAA;
  }
- .projectPic, .teamPic {
+ .projectPic {
  	height: 50px;
  	width: 50px;
+ }
+
+ .teamPic {
+ 	border-radius: 50%;
+ 	height: 15em;
+ 	width: 15em;
+
  }
 
 .navbar {
@@ -64,7 +74,7 @@ body > nav {
 }
 
 .footer {
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(100,100,100,1);
 	color: white;
 }
 
@@ -84,7 +94,18 @@ body > nav {
 }
 
 .teamMemberRows {
-	padding-bottom: 10em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.btn {
+	background-color: #61BAAA;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #61BAAA;
+
 }
 
 /* Dashboard Styling #################################################*/
