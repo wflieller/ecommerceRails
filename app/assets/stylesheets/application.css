@@ -23,12 +23,15 @@
  	font-family: 'Source Sans Pro', sans-serif;
  }
 
+ul {
+	list-style: none;
+}
  a, a:hover, a:focus {
  	color: #61BAAA;
  }
 
 hr {
-	color: lightgray;
+	
 }
 
  .fa-homepage {
@@ -107,6 +110,11 @@ body > nav {
 	color: #61BAAA;
 
 }
+
+footer {
+	background-color: rgba(100,100,100,1);
+}
+
 
 /* Dashboard Styling #################################################*/
 /*###################################################################*/
